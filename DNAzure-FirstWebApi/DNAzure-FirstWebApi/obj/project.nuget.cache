@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OwPy9YFn0I1tVcaV9DMxY58qlnQgEAPnF1zSrQ448nKAK2lRWd4ZmKEMVCDT1WtBeG9QsIawTicSZDMMCq2u4Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sushant\\Desktop\\AspDotNetWebApi\\DNAzure-FirstWebApi\\DNAzure-FirstWebApi\\DNAzure-FirstWebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sushant\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}
