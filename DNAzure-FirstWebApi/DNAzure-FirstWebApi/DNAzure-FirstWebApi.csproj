@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>DNAzure_FirstWebApi</RootNamespace>
-    <UserSecretsId>5ac6215e-c925-4c5f-a92c-4b2f1672d55a</UserSecretsId>
-    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <UserSecretsId>f28bba52-24ba-4360-8f15-af4502fe3134</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
