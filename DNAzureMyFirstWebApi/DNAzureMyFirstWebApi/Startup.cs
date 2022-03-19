@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DNAzure_FirstWebApi
+namespace DNAzureMyFirstWebApi
 {
     public class Startup
     {

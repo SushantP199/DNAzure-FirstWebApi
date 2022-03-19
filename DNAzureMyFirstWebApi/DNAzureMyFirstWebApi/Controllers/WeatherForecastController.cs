@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DNAzure_FirstWebApi.Controllers
+namespace DNAzureMyFirstWebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]

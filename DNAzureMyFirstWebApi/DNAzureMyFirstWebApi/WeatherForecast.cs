@@ -1,6 +1,6 @@
 using System;
 
-namespace DNAzure_FirstWebApi
+namespace DNAzureMyFirstWebApi
 {
     public class WeatherForecast
     {
