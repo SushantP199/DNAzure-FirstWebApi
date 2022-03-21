@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "beziHVHTSwaY7G5PbFU0xq6gsdB22PhI2PC3uLjF/qnxU5ss5qle7ZCnircwf0oM6pDkArEv2pshKm3o3rhmAQ==",
+  "dgSpecHash": "ieuAGQkPK4rtASmcfQO+un6DkL5t9xX6lbU167pcSqK8gk0iMX9p4ctj0bAAt9ZfOc1Oi/2iae6c63UoYQi+3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sushant\\Desktop\\DNAzure-FirstWebApi\\DNAzureMyFirstWebApi\\DNAzureMyFirstWebApi\\DNAzureMyFirstWebApi.csproj",
+  "projectFilePath": "C:\\Users\\Sushant\\Desktop\\DNAzure-FirstWebApi\\DNAsureMyFirstWebApi\\DNAsureMyFirstWebApi\\DNAsureMyFirstWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sushant\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
   ],

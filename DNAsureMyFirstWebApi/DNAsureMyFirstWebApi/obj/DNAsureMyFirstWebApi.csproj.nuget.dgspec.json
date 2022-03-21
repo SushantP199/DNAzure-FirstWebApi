@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sushant\\Desktop\\DNAzure-FirstWebApi\\DNAzureMyFirstWebApi\\DNAzureMyFirstWebApi\\DNAzureMyFirstWebApi.csproj": {}
+    "C:\\Users\\Sushant\\Desktop\\DNAzure-FirstWebApi\\DNAsureMyFirstWebApi\\DNAsureMyFirstWebApi\\DNAsureMyFirstWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sushant\\Desktop\\DNAzure-FirstWebApi\\DNAzureMyFirstWebApi\\DNAzureMyFirstWebApi\\DNAzureMyFirstWebApi.csproj": {
+    "C:\\Users\\Sushant\\Desktop\\DNAzure-FirstWebApi\\DNAsureMyFirstWebApi\\DNAsureMyFirstWebApi\\DNAsureMyFirstWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sushant\\Desktop\\DNAzure-FirstWebApi\\DNAzureMyFirstWebApi\\DNAzureMyFirstWebApi\\DNAzureMyFirstWebApi.csproj",
-        "projectName": "DNAzureMyFirstWebApi",
-        "projectPath": "C:\\Users\\Sushant\\Desktop\\DNAzure-FirstWebApi\\DNAzureMyFirstWebApi\\DNAzureMyFirstWebApi\\DNAzureMyFirstWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Sushant\\Desktop\\DNAzure-FirstWebApi\\DNAsureMyFirstWebApi\\DNAsureMyFirstWebApi\\DNAsureMyFirstWebApi.csproj",
+        "projectName": "DNAsureMyFirstWebApi",
+        "projectPath": "C:\\Users\\Sushant\\Desktop\\DNAzure-FirstWebApi\\DNAsureMyFirstWebApi\\DNAsureMyFirstWebApi\\DNAsureMyFirstWebApi.csproj",
         "packagesPath": "C:\\Users\\Sushant\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sushant\\Desktop\\DNAzure-FirstWebApi\\DNAzureMyFirstWebApi\\DNAzureMyFirstWebApi\\obj\\",
+        "outputPath": "C:\\Users\\Sushant\\Desktop\\DNAzure-FirstWebApi\\DNAsureMyFirstWebApi\\DNAsureMyFirstWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sushant\\AppData\\Roaming\\NuGet\\NuGet.Config",
