@@ -11,7 +11,7 @@ WORKDIR /app
 
 COPY *.csproj ./
 
-RUN dotnet restore
+# RUN dotnet restore
 
 # Copy everything else and build
 
