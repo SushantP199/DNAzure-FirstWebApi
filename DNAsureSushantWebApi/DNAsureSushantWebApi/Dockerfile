@@ -10,7 +10,7 @@ COPY *.csproj ./
 
 # Copy everything else and build
 
-COPY . ./
+ADD . ./
 
 RUN dotnet publish -c Release -o out
 
