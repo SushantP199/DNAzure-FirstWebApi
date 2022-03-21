@@ -1,6 +1,6 @@
 using System;
 
-namespace DNAsureMyFirstWebApi
+namespace DNAsureSushantWebApi
 {
     public class WeatherForecast
     {

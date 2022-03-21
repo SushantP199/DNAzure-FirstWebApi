@@ -10,7 +10,7 @@ COPY *.csproj ./
 
 # Copy everything else and build
 
-ADD . ./
+COPY . ./
 
 RUN dotnet publish -c Release -o out
 
@@ -22,4 +22,4 @@ WORKDIR /app
 
 COPY --from=build-env /app/out .
 
-ENTRYPOINT ["dotnet", "DNAsureMyFirstWebApi.dll"]
+ENTRYPOINT ["dotnet", "DNAsureSushantWebApi.dll"]

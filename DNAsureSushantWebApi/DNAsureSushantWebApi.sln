@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNAsureMyFirstWebApi", "DNAsureMyFirstWebApi\DNAsureMyFirstWebApi.csproj", "{B42DFDAB-D4D7-453A-A315-A04A03418477}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNAsureSushantWebApi", "DNAsureSushantWebApi\DNAsureSushantWebApi.csproj", "{F1CA6346-48F7-45F5-8F13-06168965B315}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B42DFDAB-D4D7-453A-A315-A04A03418477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B42DFDAB-D4D7-453A-A315-A04A03418477}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B42DFDAB-D4D7-453A-A315-A04A03418477}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B42DFDAB-D4D7-453A-A315-A04A03418477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1CA6346-48F7-45F5-8F13-06168965B315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1CA6346-48F7-45F5-8F13-06168965B315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1CA6346-48F7-45F5-8F13-06168965B315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1CA6346-48F7-45F5-8F13-06168965B315}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6A4E38FF-F2C3-440A-97F1-B1AF565F532F}
+		SolutionGuid = {2F22705D-610A-4EED-911F-2990EE743EBE}
 	EndGlobalSection
 EndGlobal

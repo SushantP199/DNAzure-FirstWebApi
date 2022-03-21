@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DNAsureMyFirstWebApi
+namespace DNAsureSushantWebApi
 {
     public class Program
     {
