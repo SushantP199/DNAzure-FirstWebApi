@@ -3,23 +3,28 @@
 #Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
 #For more information, please see https://aka.ms/containercompat
 
-FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
+FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build-env
+
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
-WORKDIR /src
-COPY ["DNAzureMyFirstWebApi/DNAzureMyFirstWebApi.csproj", "DNAzureMyFirstWebApi/"]
-RUN dotnet restore "DNAzureMyFirstWebApi/DNAzureMyFirstWebApi.csproj"
-COPY . .
-WORKDIR "/src/DNAzureMyFirstWebApi"
-RUN dotnet build "DNAzureMyFirstWebApi.csproj" -c Release -o /app/build
+# Copy csproj and restore as distinct layers
 
-FROM build AS publish
-RUN dotnet publish "DNAzureMyFirstWebApi.csproj" -c Release -o /app/publish
+COPY *.csproj ./
 
-FROM base AS final
+RUN dotnet restore
+
+# Copy everything else and build
+
+COPY . ./
+
+RUN dotnet publish -c Release -o out
+
+# Build runtime image
+
+FROM mcr.microsoft.com/dotnet/core/aspnet:2.2
+
 WORKDIR /app
-COPY --from=publish /app/publish .
+
+COPY --from=build-env /app/out .
+
 ENTRYPOINT ["dotnet", "DNAzureMyFirstWebApi.dll"]
